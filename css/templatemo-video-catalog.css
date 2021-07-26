@@ -11,7 +11,7 @@ html { scroll-behavior: smooth; overflow-x: hidden; }
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: "American Typewriter", serif;
     font-size: 18px;
     line-height: 2em;
     overflow-x: hidden;
@@ -479,8 +479,8 @@ video {
     .tm-welcome-text { font-size: 1.4rem; }
 
     #tm-video {
-        width: 666px;
-        height: 300px;
+        width: 888px;
+        height: 500px;
     }
 
     .tm-logo-container {
