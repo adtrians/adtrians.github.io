@@ -12,7 +12,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 10px;
+    font-size: 9px;
     line-height: 2em;
     overflow-x: hidden;
 }
@@ -105,7 +105,7 @@ h2, p { color: #fff; }
 }
 
 .tm-welcome-container-inner { margin-top: 100px; }
-.tm-welcome-text { font-size: 120%; }
+.tm-welcome-text { font-size:1rem; }
 
 .btn {
     padding: 10px 30px;
@@ -494,7 +494,7 @@ video {
     .navbar-toggler.collapsed i.tm-menu-opened-icon { display: none; }
     .navbar-toggler.collapsed i.tm-menu-closed-icon { display: block; }
     .tm-welcome-container-inner { margin-top: 150px; }
-    .tm-welcome-text { font-size: 1.4rem; }
+    .tm-welcome-text { font-size: 0.9rem; }
 
     #tm-video {
         width: 888px;
