@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Adtrian</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+   <link rel="shortcut icon" href="assets/kynlogo.ico">
+</head>
+<body data-theme="dark">
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="index.html">Adtrian<span class="accent">.</span></a>
+      <nav class="nav">
+        <a href="portfolio.html">Portfolio</a>
+        <a href="#contact">Contact</a>
+    
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero reveal">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>Hollaa</h1>
+          
+          <p class="lead">A video virtuoso by day, web wizard by night.</p>
+          <div class="hero-actions">
+            <a class="btn-primary" href="portfolio.html">View Portfolio</a>
+            <a class="btn-ghost" href="#contact">Hire Me</a>
+          </div>
+        </div>
+        <div class="hero-media">
+          <div class="video-card">
+            <img src="assets/front.png" width="450" height="550"  alt="Project thumbnail">
+         
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about reveal">
+      <div class="container">
+        <h2>About</h2>
+        <p>Experienced Video Editor in the Post-production industry. I specialize in delivering polished final products, as demonstrated by my portfolio which includes a TV Series, YouTube content and TVCs. I work with Premiere Pro, After Effects, and DaVinci Resolve to deliver broadcast-quality results.</p>
+        <ul class="skills">
+          <li>TV Series Editing</li>
+          <li>Short Films & Drama</li>
+          <li>YouTube Content & Vlogs</li>
+          <li>Color & Sound Sync</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact" class="contact reveal">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>Ready to collaborate? Send a quick message.</p>
+        <form class="contact-form" action="assets/php/contact.php" method="post">
+          <input name="name" placeholder="Your name" required>
+          <input name="email" placeholder="Email" required>
+          <textarea name="message" placeholder="Message" rows="5" required></textarea>
+          <button class="btn-primary" type="submit">Send</button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© 2025 Adtrian</p>
+      </div>
+    </footer>
+  </main>
+
+  <!-- custom cursor -->
+  <div id="cursor" class="cursor"></div>
+
+  <script>document.querySelector('footer p').innerText = '© ' + (new Date()).getFullYear() + ' Adtrian';</script>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
