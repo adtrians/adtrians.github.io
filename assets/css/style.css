@@ -56,7 +56,7 @@ body{
 /* hero */
 .hero{padding:80px 0}
 .hero-inner{display:grid;grid-template-columns:1fr 420px;gap:36px;align-items:center}
-.hero h1{font-family:var(--font-serif);font-size:48px;margin:0}
+.hero h1{font-family:var(--font-serif); color: #d4210d; font-size:48px;margin:0}
 .role{color:var(--muted);margin-top:6px;font-weight:500}
 .lead{max-width:56ch;color:var(--muted);line-height:1.6}
 
